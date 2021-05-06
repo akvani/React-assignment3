@@ -27,7 +27,7 @@ export default function Login() {
                     localStorage.setItem('isAuthenticated', "true");
                     localStorage.setItem('username', username);
                     //document.getElementById('username').innerHTML = username;
-                    alert("logged in successfully")
+                    //alert("logged in successfully")
                     history.push('Dashboard')
 
                 }
@@ -45,24 +45,24 @@ export default function Login() {
         Authenticate(e);
     }
     }>
-  <Form.Group controlId="formBasicEmail">
+  <Form.Group >
     <Form.Label>Enter User Name</Form.Label>
-    <Form.Control type="text" placeholder="Enter UserName" onChange={
+    <Form.Control id='userid' type="text" placeholder="Enter UserName" onChange={
                                 (evt) => setuserName(evt.target.value)
                             } />
    
   </Form.Group>
 
-  <Form.Group controlId="formBasicPassword">
+  <Form.Group >
     <Form.Label>Password</Form.Label>
-    <Form.Control type="password" placeholder="Password"  onChange={
+    <Form.Control id='password' type="password" placeholder="Password"  onChange={
                                 (evt) => setPassword(evt.target.value)
                             } />
   </Form.Group>
   <Form.Group controlId="formBasicCheckbox">
     <Form.Check type="checkbox" label="Check me out" />
   </Form.Group>
-  <Button variant="primary" type="submit">
+  <Button className="btn-primary" variant="primary" type="submit">
     Submit
   </Button>
 </Form>

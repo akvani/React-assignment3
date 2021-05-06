@@ -73,6 +73,51 @@
       "title": "The Shapeshifting Relationship Between Science and Religion - The Wire",
       "description": "Religion in different forms has largely co-existed with science, with both domains contributing equally to our worldview.",
       "id": 7
+    },
+    {
+      "id": "https://www.nytimes.com/2021/05/03/us/politics/shooting-cia-fbi.html",
+      "url": "https://www.nytimes.com/2021/05/03/us/politics/shooting-cia-fbi.html",
+      "description": "An F.B.I. statement said the man emerged from his vehicle, was wounded and was taken to a hospital."
+    },
+    {
+      "id": "https://www.aljazeera.com/news/2021/5/3/bill-and-melinda-gates-announce-divorce",
+      "url": "https://www.aljazeera.com/news/2021/5/3/bill-and-melinda-gates-announce-divorce",
+      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2021/05/AP21123757079280.jpg?resize=1200%2C630",
+      "title": "Bill and Melinda Gates to divorce after 27 years together - Aljazeera.com",
+      "author": "Al Jazeera",
+      "description": "The couple said in a statement they would continue to work together at their namesake philanthropic foundation."
+    },
+    {
+      "id": "https://www.foxnews.com/health/herd-immunity-looking-unlikely-in-us-report-says",
+      "url": "https://www.foxnews.com/health/herd-immunity-looking-unlikely-in-us-report-says",
+      "urlToImage": "https://cf-images.us-east-1.prod.boltdns.net/v1/static/694940094001/6d753f69-292c-4d98-b08e-7b6af9770b3c/e7eff83c-449b-49eb-a79b-1a314f4897ec/1280x720/match/image.jpg",
+      "title": "‘Herd immunity’ looking unlikely in US, report says - Fox News",
+      "author": "Edmund DeMarche",
+      "description": "There is a growing belief among scientists that the U.S. will not achieve ‘herd immunity’ when it comes to the coronavirus and there will be new flare-ups for the foreseeable future, but becoming less of a threat to the public."
+    },
+    {
+      "id": "https://www.nytimes.com/2021/05/04/world/americas/mexico-city-train-derailment.html",
+      "url": "https://www.nytimes.com/2021/05/04/world/americas/mexico-city-train-derailment.html",
+      "urlToImage": "https://static01.nyt.com/images/2021/05/04/us/04xp-mexico-train/04xp-mexico-train-facebookJumbo.jpg",
+      "title": "Mexico City Subway Train Crash Kills at Least 13 - The New York Times",
+      "author": "Mike Ives",
+      "description": "The accident occurred in the city’s southeast, injuring at least 70 others, the authorities said."
+    },
+    {
+      "id": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UjMyel9ENVRmeVXSAQA?oc=5",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMiK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UjMyel9ENVRmeVXSAQA?oc=5",
+      "urlToImage": null,
+      "title": "World Business Watch: Tesla under scrutiny in China, steps up engagement with regulators | Elon Musk - WION",
+      "author": null,
+      "description": null
+    },
+    {
+      "id": "https://news.google.com/__i/rss/rd/articles/CBMicmh0dHBzOi8vbXVyY2lhZWNvbm9taWEuY29tL2FydC83OTEwNi9sYS1jb25maWFuemEtZGVsLWNvbnN1bWlkb3Itc3ViZS1lbi1hYnJpbC1wZXJvLW5vLXJlY3VwZXJhLWVsLW5pdmVsLXByZWNvdmlkL9IBAA?oc=5",
+      "url": "https://news.google.com/__i/rss/rd/articles/CBMicmh0dHBzOi8vbXVyY2lhZWNvbm9taWEuY29tL2FydC83OTEwNi9sYS1jb25maWFuemEtZGVsLWNvbnN1bWlkb3Itc3ViZS1lbi1hYnJpbC1wZXJvLW5vLXJlY3VwZXJhLWVsLW5pdmVsLXByZWNvdmlkL9IBAA?oc=5",
+      "urlToImage": null,
+      "title": "La confianza del consumidor sube en abril, pero no recupera el nivel precovid - MurciaEconomía.com",
+      "author": null,
+      "description": null
     }
   ]
 }

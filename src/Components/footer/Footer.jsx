@@ -5,26 +5,23 @@ export default class Footer extends Component {
         return (
             <div>
                        
-                <nav className="navbar fixed-bottom navbar-light bg-info">
+                       <nav className="navbar fixed-bottom navbar-light bg-info">
+  <div className="container-fluid">
+    <a className="navbar-brand" href="www.gmail.com">Contact us </a>
+    
+<ul className="list-unstyled">
+    <li>
+        <a href="www.facebook.com" className="text-dark">Facebook</a>
+    </li>
+    <li>
+        <a href="www.twitter.com" className="text-dark">Twitter</a>
+    </li>
+    <li>
+        <a href="www.instagram.com" className="text-dark">Instagram</a>
+    </li>
 
-<div className="container p-4">
-
-    <div className="row">
-
-        <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
-            <h5 className="text-uppercase">About Us</h5>
-
-            <p>
-                This website will show news feeds from News API and you can read the news depends on the selection made
-</p>
-        </div>
-
-
-
-    </div>
-
-</div>
-
+</ul>
+  </div>
 </nav>
 
             </div>

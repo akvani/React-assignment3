@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "cypress": "^3.8.1"
+    "cypress": "^3.8.3",
+    "cypress-localstorage-commands": "^1.4.4"
   }
 }
