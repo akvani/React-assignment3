@@ -27,7 +27,7 @@ console.log("Read Later button clicked");
                        
                     <div className="col-sm-6 col-md-6">
                         <div className="card" >
-                        <img className="card-img-top" src={this.props.article.urlToImage} alt="Not found"></img>
+                        {/* <img className="card-img-top" src={this.props.article.urlToImage} alt="Not found"></img> */}
                             <div className="card-body">
                                 <h5 className="card-title"><a href={this.props.article.url}>{this.props.article.title}</a></h5>
                                 <p className="card-text">{this.props.article.description}</p>

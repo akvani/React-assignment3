@@ -30,8 +30,22 @@ export default class Dashboard extends Component {
        )
        .catch( (e)=>console.log(e))
     }
-    componentDidUpdate()
-    {
+//     componentDidUpdate()
+//     {
+//         axios.get(`https://newsapi.org/v2/top-headlines?category=${this.state.Category}&apiKey=2b8b823d5cf54290bae7409fb2a80d38`        
+//         //axios.get(`https://newsapi.org/v2/top-headlines?category={event.target.value}&apiKey=2b8b823d5cf54290bae7409fb2a80d38`
+//  ).then(   
+//            (res)=>{                
+//           this.setState({newsdata : res.data.articles});
+//                   }
+     
+//        )
+//        .catch( (e)=>console.log(e))
+
+//     }
+    onChangeValue(event) {
+       // console.log(event.target.value);
+        this.setState({Category : event.target.value});
         axios.get(`https://newsapi.org/v2/top-headlines?category=${this.state.Category}&apiKey=2b8b823d5cf54290bae7409fb2a80d38`        
         //axios.get(`https://newsapi.org/v2/top-headlines?category={event.target.value}&apiKey=2b8b823d5cf54290bae7409fb2a80d38`
  ).then(   
@@ -41,12 +55,6 @@ export default class Dashboard extends Component {
      
        )
        .catch( (e)=>console.log(e))
-
-    }
-    onChangeValue(event) {
-       // console.log(event.target.value);
-        this.setState({Category : event.target.value});
-       console.log(this.state.Category);
       }
 
 readLater= (mydata)=>
@@ -86,10 +94,11 @@ console.log("Inside Parent")
   <input className="form-check-input" type="radio" name="Category" id="entertainment" value="entertainment" ></input>
   <label className="form-check-label" >Entertainment</label>
 </div>
-<div className="form-check form-check-inline" onChange={this.onChangeValue}>
+{/* <div className="form-check form-check-inline" onChange={this.onChangeValue}>
   <input className="form-check-input" type="radio" name="Category" id="generalhealth" value="generalhealth"></input>
-  <label className="form-check-label" >Generalhealth</label></div>
-  <div className="form-check form-check-inline" onChange={this.onChangeValue}>
+  <label className="form-check-label" >Generalhealth</label>
+</div> */}
+<div className="form-check form-check-inline" onChange={this.onChangeValue}>
   <input className="form-check-input" type="radio" name="Category" id="science" value="science"></input>
   <label className="form-check-label" >Science</label>
 </div>
@@ -101,12 +110,12 @@ console.log("Inside Parent")
   <input className="form-check-input" type="radio" name="Category" id="technology" value="technology"></input>
   <label className="form-check-label" >Technology</label>
 </div>
+
                <h1 className='h1'>{ this.state.Category} Headline</h1>
              
                </Col>
                </Row>
-               </Container>
-            
+               </Container>           
                     
               { 
                            
